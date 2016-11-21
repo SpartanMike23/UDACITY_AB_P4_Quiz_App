@@ -406,14 +406,52 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/question_6_hint"
                 android:inputType="text"
-
                 />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/LR_margin_view"
+            android:layout_marginRight="@dimen/LR_margin_view"
+            android:layout_marginTop="@dimen/radioMargin"
+            android:background="@android:color/darker_gray" />
+
+        <!--Extra Point 2-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/radioMargin"
+                    android:gravity="center"
+                    android:text="@string/question_6_text"
+                    android:textStyle="bold" />
             </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/radioMargin"
+                android:text="@string/question_6_question" />
+
+            <EditText
+                android:id="@+id/freeAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/question_6_hint"
+                android:inputType="text"
+                />
+
         </LinearLayout>
 
         <View
