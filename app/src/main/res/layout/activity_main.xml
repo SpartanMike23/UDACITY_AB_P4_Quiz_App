@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin">
 
+<!--Question #1-->
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -371,6 +372,8 @@
             </LinearLayout>
 
         </LinearLayout>
+
+        <!--Extra Point-->
 
         <LinearLayout
             android:layout_width="wrap_content"
