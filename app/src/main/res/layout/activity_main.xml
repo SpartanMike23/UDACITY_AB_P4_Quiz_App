@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin">
 
-<!--Question #1-->
+    <!--Question #1-->
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -34,14 +34,7 @@
 
             </RelativeLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="@dimen/question_line_TB"
-                android:layout_marginLeft="@dimen/LR_margin_view"
-                android:layout_marginRight="@dimen/LR_margin_view"
-                android:layout_marginTop="@dimen/question_line_TB"
-                android:background="@android:color/darker_gray" />
+            <View style="@style/ViewLine" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -107,14 +100,7 @@
                     android:textStyle="bold" />
             </RelativeLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="@dimen/question_line_TB"
-                android:layout_marginLeft="@dimen/LR_margin_view"
-                android:layout_marginRight="@dimen/LR_margin_view"
-                android:layout_marginTop="@dimen/question_line_TB"
-                android:background="@android:color/darker_gray" />
+            <View style="@style/ViewLine" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -180,14 +166,7 @@
                     android:textStyle="bold" />
             </RelativeLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="@dimen/question_line_TB"
-                android:layout_marginLeft="@dimen/LR_margin_view"
-                android:layout_marginRight="@dimen/LR_margin_view"
-                android:layout_marginTop="@dimen/question_line_TB"
-                android:background="@android:color/darker_gray" />
+            <View style="@style/ViewLine" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -249,14 +228,7 @@
                     android:textStyle="bold" />
             </RelativeLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="@dimen/question_line_TB"
-                android:layout_marginLeft="@dimen/LR_margin_view"
-                android:layout_marginRight="@dimen/LR_margin_view"
-                android:layout_marginTop="@dimen/question_line_TB"
-                android:background="@android:color/darker_gray" />
+            <View style="@style/ViewLine" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -319,14 +291,7 @@
                     android:textStyle="bold" />
             </RelativeLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="@dimen/question_line_TB"
-                android:layout_marginLeft="@dimen/LR_margin_view"
-                android:layout_marginRight="@dimen/LR_margin_view"
-                android:layout_marginTop="@dimen/question_line_TB"
-                android:background="@android:color/darker_gray" />
+            <View style="@style/ViewLine" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -410,13 +375,7 @@
 
         </LinearLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginLeft="@dimen/LR_margin_view"
-            android:layout_marginRight="@dimen/LR_margin_view"
-            android:layout_marginTop="@dimen/radioMargin"
-            android:background="@android:color/darker_gray" />
+        <View style="@style/ViewLine" />
 
         <RelativeLayout
             android:layout_width="match_parent"
